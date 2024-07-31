@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  position: relative; /* Ensure relative positioning for absolute footer */
+}
+
+.App-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Additional styling for the footer */
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
